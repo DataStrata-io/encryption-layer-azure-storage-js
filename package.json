@@ -1,0 +1,32 @@
+{
+  "name": "encryption-layer-azure-storage-js",
+  "version": "1.0.0",
+  "description": "Javascript example of client-side encryption on Azure Storage using DataStrata.io Encryption Layers",
+  "main": "index.js",
+  "dependencies": {
+    "@datastrata/azure-blob-encryption-layer": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataStrata-io/encryption-layer-azure-storage-js.git"
+  },
+  "keywords": [
+    "client-side",
+    "encryption",
+    "encrypt",
+    "decrypt",
+    "azure",
+    "storage",
+    "account"
+  ],
+  "author": "DataStrata.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DataStrata-io/encryption-layer-azure-storage-js/issues"
+  },
+  "homepage": "https://github.com/DataStrata-io/encryption-layer-azure-storage-js#readme"
+}

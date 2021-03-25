@@ -1,0 +1,1 @@
+Welcome to DataStrata.io Encryption Layers, client-side encryption for your data.
