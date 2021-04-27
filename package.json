@@ -4,9 +4,8 @@
   "description": "Javascript example of client-side encryption on Azure Storage using DataStrata.io Encryption Layers",
   "main": "index.js",
   "dependencies": {
-    "@datastrata/azure-blob-encryption-layer": "^1.0.9"
+    "@datastrata/azure-blob-encryption-layer": "^1.0.10"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
