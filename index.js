@@ -12,8 +12,7 @@ const main = async () => {
 
         const encryptionLayer = new DataStrata.AzureEncryptionLayer (
             'YOUR-REST-CREDENTIAL-CLIENT-ID',
-            'YOUR-REST-CREDENTIAL-SECRET',
-            'us-east-1');
+            'YOUR-REST-CREDENTIAL-SECRET');
 
         encryptionLayer.setContainerClient('YOUR-AZURE-STORAGE-CONTAINER-NAME');
         encryptionLayer.setBlockBlobClient(testFileName);
