@@ -28,6 +28,7 @@ const main = async () => {
         // Cleanup
         await encryptionLayer.delete();
         fs.unlinkSync(outputFilePath);
+        console.log('Deleted object in Encryption Layer and downloaded file.');
     } catch (e) {
         console.log(e);
     }
